@@ -1,6 +1,9 @@
 <?php
 
-echo luas_segitiga(2,3);
-echo luas_persegi();
-echo keliling_persegi();
-echo diameter_lingkaran();
+ function hitung_luas($panjang,$lebar)  
+ {  
+ $luas=$panjang*$lebar;  
+ return $luas;  
+ }  
+ $luas=hitung_luas(2,3);  
+ echo $luas;  
